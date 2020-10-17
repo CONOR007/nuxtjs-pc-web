@@ -54,9 +54,8 @@ jobs:
         key: ${{ secrets.KEY }}
         port: ${{ secrets.PORT }}
         script: |
-          cd /root/realworld-nuxtjs
+          cd /home/realworld
           wget https://github.com/CONOR007/realworld/releases/latest/download/release.tgz -O release.tgz
           tar zxvf release.tgz
-          npm install -g cnpm --registry=https://registry.npm.taobao.org
           cnpm install --production
           pm2 reload pm2.config.json
