@@ -61,11 +61,11 @@ module.exports = {
   },
 
   server: {
-      port: 9090, // default: 3000
+      port: 443, // default: 3000
       host: '0.0.0.0', // default: localhost,
 	    https: {
-	      key: fs.readFileSync(path.resolve(__dirname, 'cert.key')),
-	      cert: fs.readFileSync(path.resolve(__dirname, 'cert.crt'))
+	      key: fs.readFileSync(path.resolve(__dirname, 'liucong.icu.key')),
+	      cert: fs.readFileSync(path.resolve(__dirname, 'liucong.icu.crt'))
 	    }
   },
 
