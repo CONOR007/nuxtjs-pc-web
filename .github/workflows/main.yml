@@ -53,7 +53,7 @@ jobs:
         key: ${{ secrets.KEY }}
         port: ${{ secrets.PORT }}
         script: |
-          cd /home/realworld
+          cd /root/realworld
           wget https://github.com/CONOR007/realworld/releases/latest/download/release.tgz -O release.tgz
           tar zxvf release.tgz
           cnpm install --production
