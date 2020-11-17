@@ -6,6 +6,7 @@ on:
 
 jobs:
   build-and-deploy:
+    # 通过乌班图临时创建一个docker
     runs-on: ubuntu-latest
     steps:
 
