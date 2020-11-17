@@ -67,7 +67,7 @@ module.exports = {
 	    //   key: fs.readFileSync(path.resolve(__dirname, 'cert.key')),
 	    //   cert: fs.readFileSync(path.resolve(__dirname, 'cert.crt'))
 	    // }
-      // c9ad2771424ead51535a55deeb790805c53ebbdf
+      // 1fe71c1bc84a3ae87483727ab545955201b4a8f7
   },
 
   // 注册插件
