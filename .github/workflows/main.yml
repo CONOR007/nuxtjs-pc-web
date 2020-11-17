@@ -57,5 +57,6 @@ jobs:
           cd /root/realworld
           wget https://github.com/CONOR007/realworld/releases/latest/download/release.tgz -O release.tgz
           tar zxvf release.tgz
-          cnpm install --production
+          rm -rf release.tgz
+          cnpm install
           pm2 reload pm2.config.json
